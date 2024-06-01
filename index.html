@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life Expectancy Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Life Expectancy Calculator</h1>
+        <p>Enter your age and your expected lifespan to calculate your remaining years, weeks, days, and Mondays.</p>
+        <input type="number" id="ageInput" placeholder="Enter your age">
+        <input type="number" id="lifespanInput" placeholder="Enter your expected lifespan">
+        <button onclick="calculateLifeExpectancy()">Calculate</button>
+        <div id="results"></div>
+        <p>Not sure about your expected lifespan? Use the <a href="https://www.ssa.gov/oact/population/longevity.html" target="_blank">SSA Life Expectancy Calculator</a> to get an estimate.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
